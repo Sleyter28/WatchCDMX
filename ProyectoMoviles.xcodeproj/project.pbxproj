@@ -13,6 +13,7 @@
 		BF59C9621FA6B1D3005823C4 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF59C9611FA6B1D3005823C4 /* NotificationViewController.swift */; };
 		BFC9CA7C1FA5A756006410D2 /* DetalleRutasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC9CA7B1FA5A756006410D2 /* DetalleRutasViewController.swift */; };
 		BFC9CA7E1FA69E02006410D2 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC9CA7D1FA69E02006410D2 /* UserViewController.swift */; };
+		BFFB23581FCBFFE20082B47A /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFB23571FCBFFE20082B47A /* MapController.swift */; };
 		EA004E2B1FCBFB9E00C7AB4C /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA0F2EE71FCBBF1B00DEAB5E /* Interface.storyboard */; };
 		EA004E2C1FCBFCB700C7AB4C /* ReglonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE71E921FCBCEE30049D889 /* ReglonController.swift */; };
 		EA057F2E1F6A151500B5E52F /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA057F2D1F6A151500B5E52F /* WelcomeViewController.swift */; };
@@ -104,6 +105,7 @@
 		BF59C9611FA6B1D3005823C4 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		BFC9CA7B1FA5A756006410D2 /* DetalleRutasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleRutasViewController.swift; sourceTree = "<group>"; };
 		BFC9CA7D1FA69E02006410D2 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		BFFB23571FCBFFE20082B47A /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
 		EA057F2D1F6A151500B5E52F /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		EA0F2EE51FCBBF1B00DEAB5E /* Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA0F2EE81FCBBF1B00DEAB5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
@@ -215,6 +217,7 @@
 				EA0F2EFC1FCBBF1B00DEAB5E /* Assets.xcassets */,
 				EA0F2EFE1FCBBF1B00DEAB5E /* Info.plist */,
 				EA0F2EFF1FCBBF1B00DEAB5E /* PushNotificationPayload.apns */,
+				BFFB23571FCBFFE20082B47A /* MapController.swift */,
 			);
 			path = "Watch Extension";
 			sourceTree = "<group>";
@@ -436,7 +439,7 @@
 					};
 					FA5978FC1F69D75C007F7C82 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 44335MTLSG;
+						DevelopmentTeam = 4J66785M8S;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -555,6 +558,7 @@
 				EA8A09A81FCBD90C00EE429D /* ObjectDetalleEvento.swift in Sources */,
 				EA0F2EF91FCBBF1B00DEAB5E /* ExtensionDelegate.swift in Sources */,
 				EA8A09A61FCBD8B700EE429D /* JsonParser.swift in Sources */,
+				BFFB23581FCBFFE20082B47A /* MapController.swift in Sources */,
 				EA8A09A51FCBD8B300EE429D /* ObjectEvento.swift in Sources */,
 				EA0F2EF71FCBBF1B00DEAB5E /* InterfaceController.swift in Sources */,
 				EA8A09A71FCBD8BC00EE429D /* ObjectRutas.swift in Sources */,
@@ -845,7 +849,7 @@
 			baseConfigurationReference = 2DA8189864ECAA04E3F5B346 /* Pods-ProyectoMoviles.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 44335MTLSG;
+				DEVELOPMENT_TEAM = 4J66785M8S;
 				INFOPLIST_FILE = ProyectoMoviles/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -861,7 +865,7 @@
 			baseConfigurationReference = 808859765E0A42F85DCB6676 /* Pods-ProyectoMoviles.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 44335MTLSG;
+				DEVELOPMENT_TEAM = 4J66785M8S;
 				INFOPLIST_FILE = ProyectoMoviles/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

@@ -44,12 +44,24 @@
             </objects>
             <point key="canvasLocation" x="525" y="426"/>
         </scene>
-        <!--Interface Controller-->
+        <!--Map Controller-->
         <scene sceneID="uLi-bA-8dG">
             <objects>
-                <controller id="cKW-Ct-mkS"/>
+                <controller id="cKW-Ct-mkS" customClass="MapController" customModule="Watch_Extension">
+                    <items>
+                        <map height="100" alignment="left" id="9oE-d4-ZPA"/>
+                        <slider width="1" alignment="left" value="1" maximum="3" steps="3" id="oLw-GO-V5P">
+                            <connections>
+                                <action selector="zoomSlider:" destination="cKW-Ct-mkS" id="Ywg-d1-eri"/>
+                            </connections>
+                        </slider>
+                    </items>
+                    <connections>
+                        <outlet property="map" destination="9oE-d4-ZPA" id="Zur-zC-Rob"/>
+                    </connections>
+                </controller>
             </objects>
-            <point key="canvasLocation" x="525" y="762"/>
+            <point key="canvasLocation" x="220" y="746"/>
         </scene>
         <!--Interface Controller Select Route-->
         <scene sceneID="Zyd-LP-IWl">
