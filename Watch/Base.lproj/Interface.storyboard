@@ -8,6 +8,12 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="13507"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="AvenirNext.ttc">
+            <string>AvenirNext-Medium</string>
+            <string>AvenirNext-UltraLight</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
@@ -54,9 +60,13 @@
                                 <tableRow identifier="reglonesEvents" id="Cnh-wj-gZK" customClass="ReglonControllerEvents" customModule="Watch_Extension">
                                     <group key="rootItem" width="1" alignment="left" id="Uy9-jq-kj6">
                                         <items>
-                                            <label height="33" alignment="left" text="Label" id="LpY-XG-WDY"/>
+                                            <label height="33" alignment="left" text="Label" id="LpY-XG-WDY">
+                                                <fontDescription key="font" name="AvenirNext-Medium" family="Avenir Next" pointSize="11"/>
+                                            </label>
                                             <separator alignment="left" id="n1u-JX-HPi"/>
-                                            <label width="76" height="33" alignment="left" text="Label" id="1sS-Su-nyQ"/>
+                                            <label width="76" height="33" alignment="left" text="Label" id="1sS-Su-nyQ">
+                                                <fontDescription key="font" name="AvenirNext-UltraLight" family="Avenir Next" pointSize="11"/>
+                                            </label>
                                         </items>
                                     </group>
                                     <connections>
