@@ -15,7 +15,9 @@
 		BFC9CA7E1FA69E02006410D2 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC9CA7D1FA69E02006410D2 /* UserViewController.swift */; };
 		BFFB23581FCBFFE20082B47A /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFB23571FCBFFE20082B47A /* MapController.swift */; };
 		EA004E2B1FCBFB9E00C7AB4C /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA0F2EE71FCBBF1B00DEAB5E /* Interface.storyboard */; };
-		EA004E2C1FCBFCB700C7AB4C /* ReglonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE71E921FCBCEE30049D889 /* ReglonController.swift */; };
+		EA004E311FCC064500C7AB4C /* InterfaceControllerEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA004E301FCC064500C7AB4C /* InterfaceControllerEvents.swift */; };
+		EA004E321FCC0ACE00C7AB4C /* ReglonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE71E921FCBCEE30049D889 /* ReglonController.swift */; };
+		EA004E341FCC0DB200C7AB4C /* ReglonControllerEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA004E331FCC0DB200C7AB4C /* ReglonControllerEvents.swift */; };
 		EA057F2E1F6A151500B5E52F /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA057F2D1F6A151500B5E52F /* WelcomeViewController.swift */; };
 		EA0F2EE91FCBBF1B00DEAB5E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA0F2EE71FCBBF1B00DEAB5E /* Interface.storyboard */; };
 		EA0F2EEB1FCBBF1B00DEAB5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA0F2EEA1FCBBF1B00DEAB5E /* Assets.xcassets */; };
@@ -106,6 +108,8 @@
 		BFC9CA7B1FA5A756006410D2 /* DetalleRutasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleRutasViewController.swift; sourceTree = "<group>"; };
 		BFC9CA7D1FA69E02006410D2 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		BFFB23571FCBFFE20082B47A /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		EA004E301FCC064500C7AB4C /* InterfaceControllerEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceControllerEvents.swift; sourceTree = "<group>"; };
+		EA004E331FCC0DB200C7AB4C /* ReglonControllerEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReglonControllerEvents.swift; sourceTree = "<group>"; };
 		EA057F2D1F6A151500B5E52F /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		EA0F2EE51FCBBF1B00DEAB5E /* Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA0F2EE81FCBBF1B00DEAB5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
@@ -218,6 +222,8 @@
 				EA0F2EFE1FCBBF1B00DEAB5E /* Info.plist */,
 				EA0F2EFF1FCBBF1B00DEAB5E /* PushNotificationPayload.apns */,
 				BFFB23571FCBFFE20082B47A /* MapController.swift */,
+				EA004E301FCC064500C7AB4C /* InterfaceControllerEvents.swift */,
+				EA004E331FCC0DB200C7AB4C /* ReglonControllerEvents.swift */,
 			);
 			path = "Watch Extension";
 			sourceTree = "<group>";
@@ -562,10 +568,12 @@
 				EA8A09A51FCBD8B300EE429D /* ObjectEvento.swift in Sources */,
 				EA0F2EF71FCBBF1B00DEAB5E /* InterfaceController.swift in Sources */,
 				EA8A09A71FCBD8BC00EE429D /* ObjectRutas.swift in Sources */,
-				EA004E2C1FCBFCB700C7AB4C /* ReglonController.swift in Sources */,
+				EA004E311FCC064500C7AB4C /* InterfaceControllerEvents.swift in Sources */,
+				EA004E321FCC0ACE00C7AB4C /* ReglonController.swift in Sources */,
 				EA8A09AA1FCBD92300EE429D /* ObjectParada.swift in Sources */,
 				EAE71E971FCBD4120049D889 /* InterfaceControllerSelectRoute.swift in Sources */,
 				EA8A09A91FCBD91100EE429D /* ObjectDireccion.swift in Sources */,
+				EA004E341FCC0DB200C7AB4C /* ReglonControllerEvents.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

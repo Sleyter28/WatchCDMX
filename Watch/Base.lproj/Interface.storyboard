@@ -37,10 +37,40 @@
             </objects>
             <point key="canvasLocation" x="220" y="345"/>
         </scene>
-        <!--Interface Controller-->
+        <!--Interface Controller Events-->
         <scene sceneID="0qy-Df-gOf">
             <objects>
-                <controller id="key-tF-T9s"/>
+                <controller id="key-tF-T9s" customClass="InterfaceControllerEvents" customModule="Watch_Extension">
+                    <items>
+                        <group width="1" height="49" alignment="left" id="rq0-WO-QEt">
+                            <items>
+                                <label width="132" height="51" alignment="left" text="Eventos:" textAlignment="center" id="AcW-xc-kLz"/>
+                            </items>
+                            <color key="backgroundColor" red="0.84705882349999995" green="0.34509803919999998" blue="0.61568627450000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </group>
+                        <separator alignment="left" id="13h-Rr-boQ"/>
+                        <table alignment="left" id="4E0-LU-3J9">
+                            <items>
+                                <tableRow identifier="reglonesEvents" id="Cnh-wj-gZK" customClass="ReglonControllerEvents" customModule="Watch_Extension">
+                                    <group key="rootItem" width="1" alignment="left" id="Uy9-jq-kj6">
+                                        <items>
+                                            <label height="33" alignment="left" text="Label" id="LpY-XG-WDY"/>
+                                            <separator alignment="left" id="n1u-JX-HPi"/>
+                                            <label width="76" height="33" alignment="left" text="Label" id="1sS-Su-nyQ"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="lblFecha" destination="LpY-XG-WDY" id="Cqz-ae-GpN"/>
+                                        <outlet property="lblMotivo" destination="1sS-Su-nyQ" id="kIq-qn-bOl"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="tableEvents" destination="4E0-LU-3J9" id="5IV-Ey-P01"/>
+                    </connections>
+                </controller>
             </objects>
             <point key="canvasLocation" x="525" y="426"/>
         </scene>
@@ -77,7 +107,7 @@
                         <separator alignment="left" id="AMh-qe-UOe"/>
                         <table alignment="left" id="1BI-tR-gPW">
                             <items>
-                                <tableRow identifier="reglones" id="WkL-Hc-4i4" customClass="ReglonController" customModule="ProyectoMoviles">
+                                <tableRow identifier="reglones" id="WkL-Hc-4i4" customClass="ReglonController" customModule="Watch_Extension">
                                     <group key="rootItem" width="1" alignment="left" id="dII-DK-CXk">
                                         <items>
                                             <label width="135" height="32" alignment="left" textAlignment="center" baselineAdjustment="alignCenters" numberOfLines="2" id="4sJ-zt-ntl">

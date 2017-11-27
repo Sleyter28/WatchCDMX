@@ -31,14 +31,12 @@ class InterfaceControllerSelectRoute: WKInterfaceController {
         jsonParser = JsonParser(serverData: serverData)
         //jsonParser.rutasJsonToObject()
         coleccionRutasObject = jsonParser.rutasJsonToObject()
-        let count = coleccionRutasObject.count;
-        //print("Count: "+String(count))
-        
+        let count = coleccionRutasObject.count ;
+        print("Count: "+String(count))
         self.tableResponse.setNumberOfRows(count, withRowType: "reglones")
         let rowCount = self.tableResponse.numberOfRows
         
-        // Iterate over the rows and set the label and image for each one.
-        for i in 0 ..< rowCount {
+        for  i in 0 ..< rowCount {
             // Set the values for the row controller
             let row = self.tableResponse.rowController(at: i) as! ReglonController
             
