@@ -54,11 +54,11 @@
         <!--Interface Controller Select Route-->
         <scene sceneID="Zyd-LP-IWl">
             <objects>
-                <controller id="w3x-XD-myv" customClass="InterfaceControllerSelectRoute" customModule="ProyectoMoviles">
+                <controller id="w3x-XD-myv" customClass="InterfaceControllerSelectRoute" customModule="Watch_Extension">
                     <items>
                         <group width="1" height="39" alignment="left" id="mLv-Oa-C2O">
                             <items>
-                                <label width="136" height="44" alignment="left" text="Seleccione ruta:" textAlignment="center" id="lvc-os-Uhq"/>
+                                <label width="136" height="44" alignment="left" text="Listado de rutas:" textAlignment="center" id="lvc-os-Uhq"/>
                             </items>
                             <color key="backgroundColor" red="0.84705882349999995" green="0.34509803919999998" blue="0.61568627450000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </group>
@@ -68,18 +68,21 @@
                                 <tableRow identifier="reglones" id="WkL-Hc-4i4" customClass="ReglonController" customModule="ProyectoMoviles">
                                     <group key="rootItem" width="1" alignment="left" id="dII-DK-CXk">
                                         <items>
-                                            <label width="43" height="32" alignment="left" text="Ruta:" id="8bD-af-mk9"/>
-                                            <label width="83" height="32" alignment="left" text="Santa Fe - Balderas" id="4sJ-zt-ntl"/>
+                                            <label width="135" height="32" alignment="left" textAlignment="center" baselineAdjustment="alignCenters" numberOfLines="2" id="4sJ-zt-ntl">
+                                                <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                                            </label>
                                         </items>
                                     </group>
                                     <connections>
                                         <outlet property="lblResponseRoute" destination="4sJ-zt-ntl" id="f7o-hA-qAh"/>
-                                        <outlet property="lblRuta" destination="8bD-af-mk9" id="VSg-Bn-bBG"/>
                                     </connections>
                                 </tableRow>
                             </items>
                         </table>
                     </items>
+                    <connections>
+                        <outlet property="tableResponse" destination="1BI-tR-gPW" id="aWf-0U-9YN"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="525" y="104"/>

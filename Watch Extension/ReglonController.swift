@@ -7,8 +7,8 @@
 //
 
 import WatchKit
+import Foundation
 
 class ReglonController: NSObject {
-    @IBOutlet var lblRuta: WKInterfaceLabel!
     @IBOutlet var lblResponseRoute: WKInterfaceLabel!
 }

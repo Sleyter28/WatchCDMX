@@ -122,7 +122,7 @@ class JsonParser {
     func eventosJsonToObject() -> [ObjectEvento] {
         let url = URL(string: serverData)
         let datosJSON = try! Data(contentsOf: url!, options : [])
-        let eventos = try! decoder.decode([Evento], from:datosJSON)
+        let eventos = try! decoder.decode([Evento].self, from:datosJSON)
         var coleccionEventos:[ObjectEvento] = [ObjectEvento]()
         
         for evento in eventos {

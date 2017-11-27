@@ -13,6 +13,8 @@
 		BF59C9621FA6B1D3005823C4 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF59C9611FA6B1D3005823C4 /* NotificationViewController.swift */; };
 		BFC9CA7C1FA5A756006410D2 /* DetalleRutasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC9CA7B1FA5A756006410D2 /* DetalleRutasViewController.swift */; };
 		BFC9CA7E1FA69E02006410D2 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC9CA7D1FA69E02006410D2 /* UserViewController.swift */; };
+		EA004E2B1FCBFB9E00C7AB4C /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA0F2EE71FCBBF1B00DEAB5E /* Interface.storyboard */; };
+		EA004E2C1FCBFCB700C7AB4C /* ReglonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE71E921FCBCEE30049D889 /* ReglonController.swift */; };
 		EA057F2E1F6A151500B5E52F /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA057F2D1F6A151500B5E52F /* WelcomeViewController.swift */; };
 		EA0F2EE91FCBBF1B00DEAB5E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA0F2EE71FCBBF1B00DEAB5E /* Interface.storyboard */; };
 		EA0F2EEB1FCBBF1B00DEAB5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA0F2EEA1FCBBF1B00DEAB5E /* Assets.xcassets */; };
@@ -21,10 +23,15 @@
 		EA0F2EF91FCBBF1B00DEAB5E /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0F2EF81FCBBF1B00DEAB5E /* ExtensionDelegate.swift */; };
 		EA0F2EFD1FCBBF1B00DEAB5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA0F2EFC1FCBBF1B00DEAB5E /* Assets.xcassets */; };
 		EA0F2F021FCBBF1B00DEAB5E /* Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = EA0F2EE51FCBBF1B00DEAB5E /* Watch.app */; };
+		EA8A09A51FCBD8B300EE429D /* ObjectEvento.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACACA831FAA8E2800598AF0 /* ObjectEvento.swift */; };
+		EA8A09A61FCBD8B700EE429D /* JsonParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEA23101FA9A49200687C0C /* JsonParser.swift */; };
+		EA8A09A71FCBD8BC00EE429D /* ObjectRutas.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB0EE671FA7926D006FC5D1 /* ObjectRutas.swift */; };
+		EA8A09A81FCBD90C00EE429D /* ObjectDetalleEvento.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACACA851FAA8E9C00598AF0 /* ObjectDetalleEvento.swift */; };
+		EA8A09A91FCBD91100EE429D /* ObjectDireccion.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB0EE6B1FA79D0A006FC5D1 /* ObjectDireccion.swift */; };
+		EA8A09AA1FCBD92300EE429D /* ObjectParada.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB0EE691FA79CC5006FC5D1 /* ObjectParada.swift */; };
 		EAE71E8E1FCBC91C0049D889 /* ARCL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE71E8F1FCBC91C0049D889 /* ARCL.framework */; };
 		EAE71E901FCBC9240049D889 /* Pods_ProyectoMoviles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE71E911FCBC9240049D889 /* Pods_ProyectoMoviles.framework */; };
-		EAE71E931FCBCEE30049D889 /* ReglonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE71E921FCBCEE30049D889 /* ReglonController.swift */; };
-		EAE71E961FCBCF5D0049D889 /* InterfaceControllerSelectRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE71E951FCBCF5D0049D889 /* InterfaceControllerSelectRoute.swift */; };
+		EAE71E971FCBD4120049D889 /* InterfaceControllerSelectRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE71E951FCBCF5D0049D889 /* InterfaceControllerSelectRoute.swift */; };
 		FA12FF981FCB84A20024CDE6 /* ARLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA12FF971FCB84A20024CDE6 /* ARLocationViewController.swift */; };
 		FA171FA11FA97FC900D96270 /* SeleccionRutaCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA171FA01FA97FC900D96270 /* SeleccionRutaCellViewController.swift */; };
 		FA171FA41FA9994F00D96270 /* DetalleRutasCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA171FA31FA9994F00D96270 /* DetalleRutasCellViewController.swift */; };
@@ -194,8 +201,6 @@
 				EA0F2EE71FCBBF1B00DEAB5E /* Interface.storyboard */,
 				EA0F2EEA1FCBBF1B00DEAB5E /* Assets.xcassets */,
 				EA0F2EEC1FCBBF1B00DEAB5E /* Info.plist */,
-				EAE71E921FCBCEE30049D889 /* ReglonController.swift */,
-				EAE71E951FCBCF5D0049D889 /* InterfaceControllerSelectRoute.swift */,
 			);
 			path = Watch;
 			sourceTree = "<group>";
@@ -203,6 +208,8 @@
 		EA0F2EF51FCBBF1B00DEAB5E /* Watch Extension */ = {
 			isa = PBXGroup;
 			children = (
+				EAE71E921FCBCEE30049D889 /* ReglonController.swift */,
+				EAE71E951FCBCF5D0049D889 /* InterfaceControllerSelectRoute.swift */,
 				EA0F2EF61FCBBF1B00DEAB5E /* InterfaceController.swift */,
 				EA0F2EF81FCBBF1B00DEAB5E /* ExtensionDelegate.swift */,
 				EA0F2EFC1FCBBF1B00DEAB5E /* Assets.xcassets */,
@@ -468,6 +475,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA004E2B1FCBFB9E00C7AB4C /* Interface.storyboard in Resources */,
 				EA0F2EFD1FCBBF1B00DEAB5E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -544,8 +552,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA8A09A81FCBD90C00EE429D /* ObjectDetalleEvento.swift in Sources */,
 				EA0F2EF91FCBBF1B00DEAB5E /* ExtensionDelegate.swift in Sources */,
+				EA8A09A61FCBD8B700EE429D /* JsonParser.swift in Sources */,
+				EA8A09A51FCBD8B300EE429D /* ObjectEvento.swift in Sources */,
 				EA0F2EF71FCBBF1B00DEAB5E /* InterfaceController.swift in Sources */,
+				EA8A09A71FCBD8BC00EE429D /* ObjectRutas.swift in Sources */,
+				EA004E2C1FCBFCB700C7AB4C /* ReglonController.swift in Sources */,
+				EA8A09AA1FCBD92300EE429D /* ObjectParada.swift in Sources */,
+				EAE71E971FCBD4120049D889 /* InterfaceControllerSelectRoute.swift in Sources */,
+				EA8A09A91FCBD91100EE429D /* ObjectDireccion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -559,12 +575,10 @@
 				FAE3FA1F1FAA3EBE002E0682 /* ARViewController.swift in Sources */,
 				FAB0EE6C1FA79D0A006FC5D1 /* ObjectDireccion.swift in Sources */,
 				FAB0EE6A1FA79CC5006FC5D1 /* ObjectParada.swift in Sources */,
-				EAE71E931FCBCEE30049D889 /* ReglonController.swift in Sources */,
 				FAB0EE681FA7926D006FC5D1 /* ObjectRutas.swift in Sources */,
 				FACACA841FAA8E2800598AF0 /* ObjectEvento.swift in Sources */,
 				BF59C9621FA6B1D3005823C4 /* NotificationViewController.swift in Sources */,
 				FA7193B91FAA96B0000129DB /* EventoCellViewController.swift in Sources */,
-				EAE71E961FCBCF5D0049D889 /* InterfaceControllerSelectRoute.swift in Sources */,
 				FAB0EE661FA789EB006FC5D1 /* SeleccionRutaViewController.swift in Sources */,
 				FA171FA41FA9994F00D96270 /* DetalleRutasCellViewController.swift in Sources */,
 				FA12FF981FCB84A20024CDE6 /* ARLocationViewController.swift in Sources */,
