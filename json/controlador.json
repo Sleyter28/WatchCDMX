@@ -1,0 +1,17 @@
+{
+	"id":1,
+	"nombre":"Juan José",
+	"apellidos":"Rodríguez Franco",
+	"INE": "JJRFR1567891N67",
+	"noControlador": "AA1234",
+	"fechaNacimiento": "07/03/1975",
+	"usuario":"jjrdz",
+	"contrasena":"*******",
+	"imagen":"jjrdzPhoto.jpg",
+	"paradas":[
+		1,
+		34,
+		20,
+		22
+	]
+}

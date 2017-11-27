@@ -1,0 +1,17 @@
+[	
+	{
+		"id":1,
+		"hora":"13:00",
+		"descripcion":"Accidente en Lieja"
+	},
+	{
+		"id":2,
+		"hora":"14:35",
+		"descripcion":"Tráfico Lento en Consituyentes"
+	},
+	{
+		"id":3,
+		"hora":"14:55",
+		"descripcion":"Inundación en Lomas"
+	}
+]

@@ -1,0 +1,10 @@
+[{
+ "id":1, "ruta": "1N", "nombre": "Balderas-Santa Fé"
+},
+{
+ "id":2, "ruta": "N1", "nombre": "Santa Fé-Balderas"
+},
+{
+ "id":3, "ruta": "3", "nombre": "Tacubaya-Reforma"
+}
+]

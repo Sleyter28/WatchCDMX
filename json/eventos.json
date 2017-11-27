@@ -1,0 +1,27 @@
+[
+		{"culturales":
+			
+				{
+					"id":1,
+					"hora":"11:00",
+					"motivo":"ColorArt"
+				},
+		"sociales": 
+			
+				{
+					"id":3,
+					"hora": "12:00",
+					"motivo": "Manifestación"
+				},
+	
+		"Deportivos":
+			{
+					"id":4,
+					"hora": "13:00",
+					"motivo": "UNAM-CAZ"
+			}
+		
+
+		} 
+	
+	]

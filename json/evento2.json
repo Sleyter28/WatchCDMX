@@ -1,0 +1,15 @@
+{
+	"id":1,
+	"tipoEvento":"social",
+	"hora":"20:00",
+	"motivo":"Manifestación",
+	"direccion":{
+		"calle":"Av de Chapultepec 222",
+		"colonia":"Roma Norte",
+		"delegacion":"Cuauhtémoc",
+		"ciudad":"CDMX",
+		"cp":"67000",
+		"latitud":19.4256949,
+		"longitud":-99.19387319
+	}
+}

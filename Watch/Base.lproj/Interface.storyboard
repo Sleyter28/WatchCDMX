@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="13529" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="13507"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Watch" customModuleProvider="target">
+                    <items>
+                        <button width="1" alignment="left" title="Rutas" id="D7x-Uw-oVo">
+                            <color key="backgroundColor" red="0.84705882352941175" green="0.34509803921568627" blue="0.61568627450980395" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <segue destination="w3x-XD-myv" kind="push" id="QIP-3Y-3lK"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Eventos" id="0KN-E5-MtS">
+                            <color key="backgroundColor" red="0.84705882349999995" green="0.34509803919999998" blue="0.61568627450000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <segue destination="key-tF-T9s" kind="push" id="nvA-Da-pQy"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Mi Ubicación" id="QaR-WA-ePT">
+                            <color key="backgroundColor" red="0.84705882349999995" green="0.34509803919999998" blue="0.61568627450000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <segue destination="cKW-Ct-mkS" kind="push" id="BK6-Ud-KMl"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="0qy-Df-gOf">
+            <objects>
+                <controller id="key-tF-T9s"/>
+            </objects>
+            <point key="canvasLocation" x="525" y="426"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="uLi-bA-8dG">
+            <objects>
+                <controller id="cKW-Ct-mkS"/>
+            </objects>
+            <point key="canvasLocation" x="525" y="762"/>
+        </scene>
+        <!--Interface Controller Select Route-->
+        <scene sceneID="Zyd-LP-IWl">
+            <objects>
+                <controller id="w3x-XD-myv" customClass="InterfaceControllerSelectRoute" customModule="ProyectoMoviles">
+                    <items>
+                        <group width="1" height="39" alignment="left" id="mLv-Oa-C2O">
+                            <items>
+                                <label width="136" height="44" alignment="left" text="Seleccione ruta:" textAlignment="center" id="lvc-os-Uhq"/>
+                            </items>
+                            <color key="backgroundColor" red="0.84705882349999995" green="0.34509803919999998" blue="0.61568627450000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </group>
+                        <separator alignment="left" id="AMh-qe-UOe"/>
+                        <table alignment="left" id="1BI-tR-gPW">
+                            <items>
+                                <tableRow identifier="reglones" id="WkL-Hc-4i4" customClass="ReglonController" customModule="ProyectoMoviles">
+                                    <group key="rootItem" width="1" alignment="left" id="dII-DK-CXk">
+                                        <items>
+                                            <label width="43" height="32" alignment="left" text="Ruta:" id="8bD-af-mk9"/>
+                                            <label width="83" height="32" alignment="left" text="Santa Fe - Balderas" id="4sJ-zt-ntl"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="lblResponseRoute" destination="4sJ-zt-ntl" id="f7o-hA-qAh"/>
+                                        <outlet property="lblRuta" destination="8bD-af-mk9" id="VSg-Bn-bBG"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="525" y="104"/>
+        </scene>
+    </scenes>
+</document>

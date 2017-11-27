@@ -1,0 +1,146 @@
+[{
+	"id":1,
+	"linea":"1",
+	"inicio":"Metro Balderas",
+	"nombreParada":"Tacubaya",
+	"noAutobus": "411",
+	"dirección":{
+		"calle":"Av de Chapultepec 222",
+		"colonia":"Roma Norte",
+		"delegacion":"Cuauhtémoc",
+		"ciudad":"CDMX",
+		"cp":"67000",
+		"latitud":19.4256949,
+		"longitud":-99.19387319
+	},
+	"capacidadMax":150,
+	"diasOperacion":{
+		"lunes":{
+		"status":true,
+		"horario":"7:00-22:00"
+		},
+		"martes":{
+		"status":true,
+		"horario":"7:00-22:00"
+		},
+		"miercoles":{
+		"status":true,
+		"horario":"7:00-22:00"
+		},
+		"jueves":{
+		"status":true,
+		"horario":"7:00-23:00"
+		},
+		"viernes":{
+		"status":true,
+		"horario":"6:00-23:00"
+		},
+		"sabado":{
+		"status":true,
+		"horario":"8:00-21:00"
+		},
+		"domingo":{
+		"status":false,
+		"horario":null
+		}
+}
+},
+{
+	"id":2,
+	"linea":"1",
+	"inicio":"Metro Balderas",
+	"nombreParada":"Las Flores",
+	"noAutobus": "524",
+	"dirección":{
+		"calle":"Av de Chapultepec 222",
+		"colonia":"Roma Norte",
+		"delegacion":"Cuauhtémoc",
+		"ciudad":"CDMX",
+		"cp":"67000",
+		"latitud":19.4256949,
+		"longitud":-99.19387319
+	},
+	"capacidadMax":150,
+	"diasOperacion":{
+		"lunes":{
+		"status":true,
+		"horario":"7:00-22:00"
+		},
+		"martes":{
+		"status":true,
+		"horario":"7:00-22:00"
+		},
+		"miercoles":{
+		"status":true,
+		"horario":"7:00-22:00"
+		},
+		"jueves":{
+		"status":true,
+		"horario":"7:00-23:00"
+		},
+		"viernes":{
+		"status":true,
+		"horario":"6:00-23:00"
+		},
+		"sabado":{
+		"status":true,
+		"horario":"8:00-21:00"
+		},
+		"domingo":{
+		"status":false,
+		"horario":null
+		}
+}
+},
+
+
+{
+	"id":3,
+	"linea":"1",
+	"inicio":"Metro Balderas",
+	"nombreParada":"Lieja",
+	"noAutobus": "3462",
+	"dirección":{
+		"calle":"Av de Chapultepec 222",
+		"colonia":"Roma Norte",
+		"delegacion":"Cuauhtémoc",
+		"ciudad":"CDMX",
+		"cp":"67000",
+		"latitud":19.4256949,
+		"longitud":-99.19387319
+	},
+	"capacidadMax":150,
+	"diasOperacion":{
+		"lunes":{
+		"status":true,
+		"horario":"7:00-22:00"
+		},
+		"martes":{
+		"status":true,
+		"horario":"7:00-22:00"
+		},
+		"miercoles":{
+		"status":true,
+		"horario":"7:00-22:00"
+		},
+		"jueves":{
+		"status":true,
+		"horario":"7:00-23:00"
+		},
+		"viernes":{
+		"status":true,
+		"horario":"6:00-23:00"
+		},
+		"sabado":{
+		"status":true,
+		"horario":"8:00-21:00"
+		},
+		"domingo":{
+		"status":false,
+		"horario":null
+		}
+
+}
+}
+
+]

@@ -1,0 +1,14 @@
+{
+	"id":1,
+	"nombre":"Julia",
+	"apellidos":"Morales Tort",
+	"usuario":"julymt",
+	"contrasena":"1234",
+	"imagen":"julymtPhoto.jpg",
+	"favoritas":[
+		5,
+		47,
+		32,
+		100
+	]
+}
